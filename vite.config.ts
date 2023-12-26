@@ -14,7 +14,11 @@ export default defineConfig({
     UnoCSS(),
     Components({
       // 自动导入组件
-      resolvers: [AntDesignVueResolver()],
+      resolvers: [
+        AntDesignVueResolver({
+          // importStyle: false,
+        }),
+      ],
       dts: 'src/type/components.d.ts',
     }),
     AutoImport({
