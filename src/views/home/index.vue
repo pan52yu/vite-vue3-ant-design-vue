@@ -14,18 +14,10 @@ const numberSlots = {
 </script>
 
 <template>
-  <div class="card">
-    <Comp
-      :input-props="{
-        placeholder: '请输入',
-        allowClear: true,
-      }"
-      :number-props="{
-        placeholder: '请输入数字',
-      }"
-      :input-slots="inputSlots"
-      :number-slots="numberSlots"
-    >
+  <div class="p-5">
+    <a-button type="primary" class="rounded">按钮</a-button>
+    <ADivider />
+    <Comp :input-slots="inputSlots" :number-slots="numberSlots">
       <template #input-prefix>
         <EditOutlined />
       </template>

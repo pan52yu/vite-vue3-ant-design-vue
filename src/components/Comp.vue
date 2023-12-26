@@ -1,3 +1,4 @@
+<!-- CompSlot -->
 <script setup lang="ts">
 import { InputNumberProps, InputProps } from 'ant-design-vue'
 import { PropType } from 'vue'

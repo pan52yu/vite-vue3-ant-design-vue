@@ -13,7 +13,7 @@
     "paths": {
       "@/*": ["src/*"]
     },
-    "types": ["unplugin-vue-define-options/macros-global", "ant-design-vue/typings/global"]
+    "types": ["ant-design-vue/typings/global"]
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
